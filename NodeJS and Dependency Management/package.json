@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-and-dependency-management",
+  "version": "1.0.0",
+  "description": "for practices on package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-Diasa/NodeJS-and-Dependency-Management.git"
+  },
+  "keywords": [
+    "example",
+    "package.json",
+    "npm",
+    "init"
+  ],
+  "author": "Lika Diasamidze likadiasa@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management/issues"
+  },
+  "homepage": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management#readme"
+}
