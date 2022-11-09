@@ -70,7 +70,6 @@ type(false)
 The type of the argument is number
 The type of the argument is string
 The type of the argument is boolean
-
 ```
 ## Write a function that determines whether a number is prime or not
 ```js
