@@ -1,6 +1,6 @@
-# Objects and Functions
+# Arrays and Cycles
 
-## Create a car object, add a color property to it with the value equals 'black'
+## Given an array consisting of movie names, iterate over the array with the output of the names of each movie to the console
 ```js
 const movies = ['Fullmetal Alchemist', 'Bullet Train', 'Athena', 'Prey', 'Avatar']
 movies.forEach(movie => console.log(movie))
