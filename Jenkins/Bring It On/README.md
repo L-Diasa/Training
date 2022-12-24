@@ -1,4 +1,4 @@
-#I Can Win 
+# I Can Win 
 
 ### 1. Install Jenkins
 * Ensured Java was installed
@@ -15,27 +15,28 @@
 		- Found path of git with the commad `where git` and inserted in the Path of The Executable 
 		- Insterted the version number of git into the Name just because it`s a good practice
 	+ Built the project
-	**console output:**
+	
+	**Console Output:**
 	```
 	Started by user Lika Diasamidze
-Running as SYSTEM
-Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\I Can Win
-The recommended git tool is: NONE
-No credentials specified
- > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\I Can Win\.git # timeout=10
-Fetching changes from the remote Git repository
- > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci # timeout=10
-Fetching upstream changes from https://github.com/vitalliuss/helloci
- > C:\Program Files\Git\cmd\git.exe --version # timeout=10
- > git --version # 'git version 2.26.0.windows.1'
- > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci +refs/heads/*:refs/remotes/origin/* # timeout=10
- > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
-Checking out Revision 71518a34152cb6c6039a2443ced60af30a31f14c (refs/remotes/origin/master)
- > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
- > C:\Program Files\Git\cmd\git.exe checkout -f 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
-Commit message: "Merge pull request #16 from EvgeniyRozhenko/fix-pom-utf8"
- > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
-Finished: SUCCESS
+	Running as SYSTEM
+	Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\I Can Win
+	The recommended git tool is: NONE
+	No credentials specified
+	 > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\I Can Win\.git # timeout=10
+	Fetching changes from the remote Git repository
+	 > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci # timeout=10
+	Fetching upstream changes from https://github.com/vitalliuss/helloci
+	 > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+	 > git --version # 'git version 2.26.0.windows.1'
+	 > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci +refs/heads/*:refs/remotes/origin/* # timeout=10
+	 > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+	Checking out Revision 71518a34152cb6c6039a2443ced60af30a31f14c (refs/remotes/origin/master)
+	 > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+	 > C:\Program Files\Git\cmd\git.exe checkout -f 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+	Commit message: "Merge pull request #16 from EvgeniyRozhenko/fix-pom-utf8"
+	 > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+	Finished: SUCCESS
 	```
 * #### Launch tests from the project in Java directory with the help of mvn test goal
 	+ Opened Global Tool Configuration and Added Maven:
@@ -47,7 +48,8 @@ Finished: SUCCESS
 		+ Set the Goals to test
 		+ Set POM to the location of the pom (which was Java/pom.xml)
 	+ Built the project
-	**console output:**
+	
+	**Console Output:**
 ```
 Started by user Lika Diasamidze
 Running as SYSTEM
