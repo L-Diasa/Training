@@ -15,7 +15,7 @@
 	* Inserted `H/5 * * * *` into the Schedule
 * #### Every workday at midnight
 	* Checked the check mark of Build periodically for Build Triggers
-	* Inserted `0 0 * * MON-FRI` into the Schedule
+	* Inserted `0 0 * * 1-5` into the Schedule
 
 ### 4. Publish “Java\target\surefire-reports\com.github.vitalliuss.helloci.AppTest.txt” file as an artifact
 - Selected `Archive The Artefact` as a post build action in the Configuration of the project
