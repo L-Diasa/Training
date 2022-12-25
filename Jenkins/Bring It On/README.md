@@ -21,4 +21,13 @@
 - Selected `Archive The Artefact` as a post build action in the Configuration of the project
 - Inserted `Java\target\surefire-reports\com.github.vitalliuss.helloci.AppTest.txt` into the Files to Archive
 - Built the project
-- Viewed the artifact in the Last Successful Artifacts
+- Viewed the artifact in the Build Artifacts:
+```
+-------------------------------------------------------------------------------
+Test set: com.github.vitalliuss.helloci.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.237 s <<< FAILURE! - in com.github.vitalliuss.helloci.AppTest
+testShouldBeFailed(com.github.vitalliuss.helloci.AppTest)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
+```
