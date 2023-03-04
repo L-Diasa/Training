@@ -4,7 +4,7 @@
 const car = {
     color: 'black'
 } 
-console.log("The color of the car is", car.color)
+console.log('The color of the car is', car.color)
 ```
 ```
 The color of the car is black
@@ -12,14 +12,14 @@ The color of the car is black
 ## Change the color property of the car object to 'green'
 ```js
 car['color'] = 'green'
-console.log("The color of the car is", car.color)
+console.log('The color of the car is', car.color)
 ```
 ```
 The color of the car is green
 ```
 ## Add the power property to the car object, which is a function and displays the engine power to the console
 ```js
-car.power = () => console.log("The engine power of the car is 300 horsepower")
+car.power = () => console.log('The engine power of the car is 300 horsepower')
 car.power()
 ```
 ```
@@ -36,7 +36,7 @@ function total() {
     return warehouse.pears + warehouse.apples
 }
 
-console.log("The number of accepted pears and apples is", total())
+console.log('The number of accepted pears and apples is', total())
 ```
 ```
 The number of accepted pears and apples is 37
@@ -44,7 +44,7 @@ The number of accepted pears and apples is 37
 ## Your name is saved in the payment terminal, write a function to define the name in the terminal (if you entered your name, then hello + name, if not, then there is no such name)
 ```js
 function terminal(name) {
-    name  === 'Lika' ? console.log('hello ' + name) : console.log("there is no such name")
+    name  === 'Lika' ? console.log('hello ' + name) : console.log('there is no such name')
 }
 
 terminal('Lika')
@@ -59,11 +59,11 @@ there is no such name
 ## Write a function for calculating the type of argument and type output to the console
 ```js
 function type(arg) {
-    console.log("The type of the argument is", typeof arg)
+    console.log('The type of the argument is', typeof arg)
 }
 
 type(4.7)
-type("me")
+type('me')
 type(false)
 ```
 ```
@@ -75,28 +75,37 @@ The type of the argument is boolean
 ```js
 function isPrime(num) {
     let isPrime = true
-    if(num == 1) 
-        isPrime = false
-    else if (num !== 2) {
-        let root = num ** 0.5
-        for (let i = 2; i < root; i++) {
+    if(num < 2) isPrime = false
+    else {
+        for (let i = 2; i < num; i++) {
             if(num % i === 0) {
                 isPrime = false
                 break
             }
         }
     }
-    console.log(`The number is ${isPrime ? '' : 'not'} prime`)
+    console.log(`The ${num} is ${isPrime ? '' : 'not'} prime`)
 }
-
-isPrime(1)
-isPrime(2)
-isPrime(8)
-isPrime(11)
+ 
+for(i = -5; i < 11; i++) {
+    isPrime(i)
+}
 ```
 ```
-The number is not prime
-The number is  prime
-The number is not prime
-The number is  prime
+The -5 is not prime
+The -4 is not prime
+The -3 is not prime
+The -2 is not prime
+The -1 is not prime
+The 0 is not prime
+The 1 is not prime
+The 2 is  prime
+The 3 is  prime
+The 4 is not prime
+The 5 is  prime
+The 6 is not prime
+The 7 is  prime
+The 8 is not prime
+The 9 is not prime
+The 10 is not prime
 ```
