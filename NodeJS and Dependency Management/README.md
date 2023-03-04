@@ -51,10 +51,7 @@ About to write to /Users/lika/Desktop/NodeJS and Dependency Management/package.j
   "bugs": {
     "url": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management/issues"
   },
-  "homepage": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management#readme",
-  "devDependencies": {
-    "fs-extra": "^11.1.0"
-  }
+  "homepage": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management#readme"
 }
 
 
