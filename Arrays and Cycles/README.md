@@ -120,12 +120,13 @@ a
 
 ## Implement a loop that prints prime numbers to the console
 ```js
-const sentinel = 30
-for(let i = 2; i < sentinel; i++) {
+const startNum = -10
+const endNum = 30
+for(let i = startNum; i < endNum; i++) {
     let isPrime = true
-    if (i !== 2) {
-        let root = i ** 0.5
-        for (let j = 2; j < root; j++) {
+    if(i < 2) isPrime = false
+    else {
+        for (let j = 2; j < i; j++) {
             if(i % j === 0) {
                 isPrime = false
                 break
@@ -139,16 +140,13 @@ for(let i = 2; i < sentinel; i++) {
 ```
 2
 3
-4
 5
 7
-9
 11
 13
 17
 19
 23
-25
 29
 ```
 
