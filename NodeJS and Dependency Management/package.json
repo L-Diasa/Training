@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management/issues"
   },
-  "homepage": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management#readme"
+  "homepage": "https://github.com/L-Diasa/NodeJS-and-Dependency-Management#readme",
+  "devDependencies": {
+    "fs-extra": "^11.1.0"
+  }
 }
